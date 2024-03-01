@@ -17,9 +17,6 @@ export default function GithubProfileCard({prof}) {
         <h1 className="prof-title" >Reach Out to me!</h1>
         <div className="row">
           <div className="main-content-profile">
-            {/* <div className="blog-header">
-              <p className="subTitle blog-subtitle">{contactInfo.subtitle}</p>
-            </div> */}
             <h2 className="bio-text">"{emoji(String(prof.bio))}"</h2>
             {prof.location !== null && (
               <div className="location-div">
@@ -48,13 +45,6 @@ export default function GithubProfileCard({prof}) {
             </div>
             <SocialMedia />
           </div>
-          {/* <div className="image-content-profile">
-            <img
-              src={prof.avatarUrl}
-              alt={prof.name}
-              className="profile-image"
-            />
-          </div> */}
         </div>
       </div>
     </Fade>

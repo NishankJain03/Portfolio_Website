@@ -93,7 +93,7 @@ const bigProjects = {
     {
       image: require("./assets/images/Listen_Ai.png"),
       projectName: "Listen-AI",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "AI-powered chatbot capable of providing assistance and support in multiple areas, such as domestic violence reporting, mental health counseling, career guidance, and emergency contacts.",
       footerLink: [
         {
           name: "Github Link",
